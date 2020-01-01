@@ -2,7 +2,10 @@
 	Created by: Mitch Watson
 	Date: December 31st 2019 */
 
-
+h1 {
+    font-family: verdana;
+    padding: 15px;
+}
 a p {
 	padding: 15px;
 	display: inline;
@@ -31,7 +34,7 @@ header, footer {
 	}
 
 a:visited {
-	color: limegreen;
+	color: white;
 	}
 	
 link {
