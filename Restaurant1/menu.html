@@ -12,16 +12,31 @@
 <style>
 	
 	table {
-	color
-	border-collapse: collapse;
+    border-collapse: collapse;
 	margin: auto;
-	border: yellow solid 2px;
+	border: yellow solid 3px;
 	margin-bottom: 40px;
 	width: 60%;
 	text-align:left;
-	;
-	
 	}
+    
+    td, th {
+        padding: 5px;
+    }
+    
+    thead {
+        background-color: yellow;
+        color: blue;
+        border:none;
+    }
+    
+    tbody tr:nth-child(odd){
+		background-color: grey;
+		}
+		
+    tbody tr:nth-child(even) {
+		background-color: indianred;
+		}
 	
 	
 	
@@ -90,8 +105,7 @@
 		
 		<table>
 			<thead>
-				<tr><th>Beverages</th>
-				<th></th>
+				<tr><th colspan="2">Beverages</th>
 				</tr>
 			</thead>
 			<tbody>
