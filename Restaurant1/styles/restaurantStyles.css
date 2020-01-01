@@ -1,0 +1,54 @@
+/*Restaurant Styles CSS
+	Created by: Mitch Watson
+	Date: December 31st 2019 */
+
+
+a h3 {
+	display: inline;
+	padding: 15px;
+}
+
+fieldset {
+	border: yellow solid 3px;
+}
+
+	
+header, footer {
+	margin-top: 15px;
+	font-weight: bold;
+	color: Yellow;
+	text-align: center;
+	font-size: 100px%;
+	font-style: italic;
+	}
+
+a:visited {
+	color: Yellow;
+	}
+	
+a:link {
+	color: red;
+	}
+	
+a:hover{
+	color: limegreen;
+	}
+	
+.bg {
+	line-height:25px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border: red solid 3px;
+	padding: 0;
+	height: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	background-image: url("../images/surf.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+hr {
+	border: 3px red solid;
+	}

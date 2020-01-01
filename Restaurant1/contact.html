@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
+
+	<style>
+		form{
+			color: white;
+			font-weight: bold;
+			}
+			
+		form label, form input, select {
+		margin-top: 20px;
+		}
+		
+	</style>
+
+
+<link rel="stylesheet"
+	type="text/css"
+	href="styles/restaurantStyles.css"/>
+
 <title>Corona Mitch's</title>
 
 </head>
+
+<div class="bg">
 
 <body class="crucial">
 	<header>
@@ -11,7 +31,7 @@
 	<hr />
 	</header>
 	
-	<nav>
+	<nav style="text-align: center">
 		<a href="home.html"><h3>Home</h3></a>
 		<a href="Menu.html"><h3>Menu</h3></a>
 		<a href="Contact.html"><h3>Contact Us</h3></a>
@@ -35,11 +55,11 @@
 			<br />
 			
 			<label for="Addinfo">Additional Info</label><br />
-			<textarea id="addinfo" name="AddInfo" rows="15" cols="40"></textarea><br />
+			<textarea id="addinfo" name="AddInfo" rows="5" cols="40"></textarea><br />
 			
 			<label for="BeenThereBefore">Have you been to the restaurant?</label>
-			<input type="radio" id="BeenThereBefore" name="BeenThere" value="no" checked>No
-			<input type="radio" id="BeenThereBefore" name="BeenThere" value="yes">Yes
+			<input type="radio" class="BeenThereBefore" name="BeenThere" value="no" checked>No
+			<input type="radio" class="BeenThereBefore" name="BeenThere" value="yes">Yes
 			<br />
 			
 			<label for="bestday">Best days to contact you:</label>
@@ -51,15 +71,15 @@
 			<br />
 			
 			
-			<input type="submit" id="submit" Value="Send Request">
+			<input type="submit" id="submit" Value="Send Request"/>
 		</form>
-			
-			<hr />
-			
-
-
 	<footer>
 		<h3>9936 Rocky River Drive, Corona, CA 92882<br />
 		775-555-0159</h3>
-	<hr />
+	</footer			
+
+</body>
+</div>
+
+</html>
 	
