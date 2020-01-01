@@ -3,10 +3,18 @@
 	Date: December 31st 2019 */
 
 
-a h3 {
-	display: inline;
+a p {
 	padding: 15px;
+	display: inline;
+	font-size: 1.7em;
+	font-family: Arial;
+
 }
+
+a {
+	text-decoration: none;
+}
+
 
 fieldset {
 	border: yellow solid 3px;
@@ -23,21 +31,20 @@ header, footer {
 	}
 
 a:visited {
-	color: Yellow;
+	color: limegreen;
 	}
 	
-a:link {
-	color: red;
+link {
+	color: yellow;
 	}
 	
 a:hover{
-	color: limegreen;
+	font-weight: bold;
 	}
 	
 .bg {
 	line-height:25px;
 	color: white;
-	font-weight: bold;
 	text-align: center;
 	border: red solid 3px;
 	padding: 0;
@@ -50,5 +57,5 @@ a:hover{
 	}
 
 hr {
-	border: 3px red solid;
+	border: 2px red solid;
 	}
