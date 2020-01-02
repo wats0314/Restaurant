@@ -14,7 +14,12 @@ a p {
 
 }
 
-a {
+fieldset p {
+	font-weight: bold
+}
+
+a, a:hover {
+	color: yellow;
 	text-decoration: none;
 }
 
@@ -33,17 +38,17 @@ header, footer {
 	font-style: italic;
 	}
 
-a:visited {
-	color: white;
-	}
-	
-link {
-	color: yellow;
-	}
+footer {
+	padding: 20px
+}	
 	
 a:hover{
 	font-weight: bold;
 	}
+	
+a:visited{
+	color: white;
+}
 	
 .bg {
 	line-height:25px;
