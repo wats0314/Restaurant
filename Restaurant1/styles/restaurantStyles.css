@@ -6,11 +6,22 @@ h1 {
     font-family: verdana;
     padding: 15px;
 }
-a p {
-	padding: 15px;
-	display: inline;
-	font-size: 1.7em;
+
+#homeClick {
+	font-size: 200%;
+}
+
+.jumbotron {
+	background-image: url("../images/beach.jpg");
+	background-image: cover;
+	
+}
+
+
+#jsdisabled {
+	color: orange;
 	font-family: Arial;
+	text-decoration: none;
 
 }
 
@@ -18,10 +29,6 @@ fieldset p {
 	font-weight: bold
 }
 
-a, a:hover {
-	color: yellow;
-	text-decoration: none;
-}
 
 
 fieldset {
@@ -42,14 +49,8 @@ footer {
 	padding: 20px
 }	
 	
-a:hover{
-	font-weight: bold;
-	}
-	
-a:visited{
-	color: white;
-}
-	
+
+/*	
 .bg {
 	line-height:25px;
 	color: white;
@@ -62,7 +63,7 @@ a:visited{
 	background-image: url("../images/surf.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	}
+	} */
 
 hr {
 	border: 2px red solid;

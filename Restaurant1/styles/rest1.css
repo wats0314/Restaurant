@@ -1,0 +1,41 @@
+
+body {
+	margin: auto;
+	max-width: 70%;
+	background-color: maroon;
+}
+
+.jumbotron {
+    margin-bottom: 3%;
+    background-image: url("../images/beach.jpg");
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+nav .btn:hover {
+	background-color: yellow;
+	color: #23B6FB;
+}
+
+nav .btn { 
+	font-size: 90%;
+	width: 100%;
+	background-color: #23B6FB;
+	color: white;
+	font-weight: bold;
+}
+
+	
+#homeBtn {
+
+	color: #23B6FB;
+	font-size: 200%;
+	padding: 0%;
+}
+
+#homeBtn:hover {
+	color: yellow;
+}
