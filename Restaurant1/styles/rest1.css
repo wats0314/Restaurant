@@ -11,6 +11,11 @@ form {
 	background: linear-gradient(90deg, rgba(138,12,12,1) 0%, rgba(73,9,121,1) 48%, rgba(156,21,21,1) 100%);
 }
 
+h1 {
+	font-size: 350%;
+	font-style: italic;
+}
+
 
 .jumbotron {
     background-image: url("../images/surf5.jpg");
