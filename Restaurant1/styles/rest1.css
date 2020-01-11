@@ -8,7 +8,7 @@ form {
 	margin: auto;
 	max-width: 1200px;
 	background: rgb(138,12,12);	
-	background: linear-gradient(90deg, rgba(138,12,12,1) 0%, rgba(73,9,121,1) 48%, rgba(156,21,21,1) 100%);
+	background: linear-gradient(90deg, rgba(138,12,12,1) 0%, rgba(73,9,121,1) 48%, rgba(156,21,21,1) 100%); /* gradient deigned on https://cssgradient.io/ */
 }
 
 h1 {
@@ -23,17 +23,17 @@ h1 {
 	background-position: center;
     background-repeat: no-repeat;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em; /*adds depth to text/background*/
+    text-shadow: black 0.3em 0.3em 0.3em; /*adds depth between text and background*/
 }
 
 
 
-nav .btn:hover {
+nav .btn:hover { /* nav button hover background-color */
 	background-color: yellow;
 	color: #23B6FB;
 }
 
-nav .btn { 
+nav .btn { /* nav button background-color */
 	font-size: 90%;
 	width: 90%;
 	background-color: #23B6FB;
@@ -54,17 +54,10 @@ nav .btn {
 	color: yellow;
 }
 
-hr {
-	height: 3px;
-	color: white solid;
-}
+
 
 footer {
 	text-align: center;
-}
-
-img {
-	margin: auto;
 }
 
 
@@ -74,7 +67,7 @@ hr {
 }
 
 .carousel-caption {
-	text-shadow: black 0.3em 0.3em 0.3em; /*adds depth to text/background*/
+	text-shadow: black 0.3em 0.3em 0.3em; /*adds depth between text and background*/
 }
 
 blockquote {
@@ -87,13 +80,13 @@ h2 {
 }
 
 #noJava {
-	background-color: orange;
+	background-color: orange; /* enable javscript alert styles */
 	color: black;
 	font-weight: bold;
 	text-align: center;
 }
 
-#contactForm {
+#contactForm { /* centers form horizontally*/
 	width: 400px;
 	margin: auto;
 }
