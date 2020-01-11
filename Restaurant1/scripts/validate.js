@@ -35,21 +35,24 @@ function validate(){ //primary function to be excecuted upon submission, returns
 	var phone = document.getElementById("phone").value;
 		
 	
-	if (name == ""){alert("You must enter your name!");  //alerts user to enter name, adds red border around needed field, stops function.
+	if (name == ""){alert("You must enter your name!");  //alerts user to enter name, adds red border around needed field, stops function returns cursor to name input
 		document.getElementById("name").className = "form-control is-invalid";
-	return false;}
+		document.getElementById("name").focus();	
+		return false;}
 	else {document.getElementById("name").className = "form-control is-valid"}
 	
 	
-	if (email == ""){alert("You must enter an Email!"); //alerts user to enter email, adds red border around needed field, stops function.
+	if (email == ""){alert("You must enter an Email!"); //alerts user to enter email, adds red border around needed field, stops function, returns cursor to email input
 			document.getElementById("email").className = "form-control is-invalid";
-	return false;}
+			document.getElementById("email").focus();
+		return false;}
 	else {document.getElementById("email").className = "form-control is-valid"}
 
 
-	if (phone == ""){alert("You must enter a phone number!"); //alerts user to enter phone, adds red border around needed field, stops function.
+	if (phone == ""){alert("You must enter a phone number!"); //alerts user to enter phone, adds red border around needed field, stops function, returns cursor to phone input.
 	document.getElementById("phone").className = "form-control is-invalid";
-	return false;}
+	document.getElementById("phone").focus();
+		return false;}
 	else {document.getElementById("phone").className = "form-control is-valid";
 	alert("Thank you for your submission! We will be in contact with you soon!")}
 	
