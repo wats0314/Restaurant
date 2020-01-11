@@ -78,17 +78,19 @@
 		<form id="contactForm" onsubmit="return validate()" onreset="resetForm()" action="fakePage.html" method="POST">
 			<div class="form-group">
 				<label for="Name">Name</label>
-				<input class="form-control" type="text" id="name" name="name"/>
-			</div>
-			<div class="form-group">
+				<input class="form-control" type="text" id="name" name="name"/><br>
+			
+		
 				<label for="Email">Email</label>
-				<input class="form-control" type="text" id="email" name="email"/><br />
-			</div>
-			<div class="form-group">
+				<input class="form-control" type="text" id="email" name="email"/><br>
+			
+			
 				<label for="phonenumber">Phone</label>
-				<input class="form-control" type="text" id="phone" name="number"/><br />
+				<input class="form-control" type="text" id="phone" name="number"/><br>
 			</div>
-							
+				
+
+			<div class="form-group">
 				<label for="contactReason">Reason for contact</label>
 					<select class="form-control" id="contactReason" name="ReasonForContact">
 						<option  value="default">Catering</option>
@@ -97,12 +99,12 @@
 						<option  value"="Other">Other</option>
 					</select>
 							
-							<br />
+				<br />
 							
-				<div class="form-group">
-					<label for="Addinfo">Additional Info</label><br />
-					<textarea class="form-control" id="addInfo" name="addInfo" value="other" rows="5" cols="40"></textarea><br />
-				</div>
+				
+				<label for="Addinfo">Additional Info</label><br />
+				<textarea class="form-control" id="addInfo" name="addInfo" value="other" rows="5" cols="40"></textarea><br />
+			</div>
 							
 				<div class="form-group form-check form-check-inline">
 					<div id="radioBeen" class="checkboxes">
@@ -125,10 +127,11 @@
 				</div>
 			<br />
 							
-							
-			<input class="form-control" type="submit" id="submitButton"  Value="Submit"/>
+			<div class="form-group">				
+			<input class="form-control" type="submit" id="submitButton"  Value="Submit"/> <!-- calls validate function which returns false on submit -->
 			<br>
-			<input class="form-control" type="reset" id="resetButton" Value="Reset"/>
+			<input class="form-control" type="reset" id="resetButton" Value="Reset"/> <!-- resets fields, puts cursor at name input -->
+			</div>
 		</form>
 	<br>
 	<br>
